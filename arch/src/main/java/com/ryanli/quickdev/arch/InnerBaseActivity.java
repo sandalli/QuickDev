@@ -1,5 +1,6 @@
 package com.ryanli.quickdev.arch;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 /**

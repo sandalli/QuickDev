@@ -119,7 +119,7 @@ def releaseTime() {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation "androidx.appcompat:appcompat:$appcompatVersion"
-    implementation "com.google.android.material:material:$materialVersion"
     implementation project(':arch')
+    implementation "androidx.appcompat:appcompat:$appcompatVersion"
+//    implementation "com.google.android.material:material:$materialVersion"
 }
